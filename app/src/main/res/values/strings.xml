@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuickNote</string>
+    <string name="add_note">Add Note</string>
+    <string name="notification_channel_general">QuickNote</string>
+    <string name="notification_text">Tap to add quick note.</string>
+    <string name="notification_exit">Exit</string>
+    <string name="permission_required_title">Permission Required</string>
+    <string name="permission_required_text">Please enabled \'Draw over other apps\' permission for QuickNote to work correctly.</string>
+    <string name="permission_required_open">Open Settings</string>
+    <string name="permission_error_title">Permission Error</string>
+    <string name="permission_error_text">Cannot open the settings screen for obtaining the required permission.</string>
+    <string name="common_ok">OK</string>
+</resources>

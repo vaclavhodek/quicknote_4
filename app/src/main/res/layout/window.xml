@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/window_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/windowHeader"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/window_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_weight="1"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="4dp"
+            android:text="@string/add_note"
+            android:textColor="@color/windowHeaderText" />
+
+        <ImageButton
+            android:id="@+id/window_close"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_margin="4dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="0dp"
+            android:src="@drawable/baseline_highlight_off_black_24"
+            android:tint="@color/windowHeaderClose"
+            android:tintMode="src_in" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/window_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/windowBody"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/content_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/content_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_margin="4dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/baseline_send_black_24"
+            android:tint="@color/windowSend"
+            android:tintMode="src_in" />
+
+    </LinearLayout>
+
+</LinearLayout>
