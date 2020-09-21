@@ -94,7 +94,7 @@ class FloatingService : Service() {
             setAutoCancel(false)
             setOngoing(true)
             setWhen(System.currentTimeMillis())
-            setSmallIcon(R.drawable.ic_launcher_foreground)
+            setSmallIcon(R.drawable.baseline_note_black_36)
             priority = Notification.PRIORITY_DEFAULT
             setContentIntent(notePendingIntent)
             addAction(
